@@ -30,6 +30,9 @@ module.exports = yeoman.generators.Base.extend({
         editorConfig: function () {
             this.copy('editorconfig', '.editorconfig');
         },
+        favicon: function() {
+            this.copy('favicon.ico', 'app/favicon.ico');
+        },  
         mainStylesheet: function () {
             this.copy('main.css', 'app/styles/main.css');
         },
