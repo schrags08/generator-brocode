@@ -1,2 +1,0 @@
-- test out serve:dist and dist, seems like the styles aren't getting copied
-- remove unused npm packages
